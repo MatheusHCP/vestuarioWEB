@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Cadastro de Marcas | VestWEB";
+    ViewData["Title"] = "Lista de marcas | VestWEB";
 }
 
 <link href="~/css/cadastros.css" rel="stylesheet" type="text/css" media="all" />
@@ -7,9 +7,9 @@
 <div id="pageintro" class="hoc clear">
     <!-- ################################################################################################ -->
     <article>
-        <p>- Cadastro -</p>
+        <p>- Lista -</p>
         <h3 class="heading">MARCAS</h3>
-        <p>Marcas registradas na plataforma: <a asp-controller="lista" asp-action="listaMarcas">Clique aqui para acessar a lista</a></p>
+        <p>Para cadastrar uma marca: <a asp-controller="cadastros" asp-action="marcas">Clique aqui para acessar a tela cadastro</a></p>
     </article>
     <!-- ################################################################################################ -->
 </div>
@@ -22,11 +22,10 @@
                 <input type="number" placeholder="ID" class="form-control" id="Campoidentificador" readonly>
             </div>
             <div class="form-group">
-                <label for="descmarca">Descrição da marca</label>
-                <input type="text" placeholder="marca" class="form-control" id="descmarca" maxlength="30">
+                <label for="desccategoria">Descrição da categoria</label>
+                <input type="text" placeholder="categoria" class="form-control" id="desccategoria">
             </div>
             <button type="button" class="btn btn-primary">Salvar</button>
         </form>
     </main>
 </div>
-
