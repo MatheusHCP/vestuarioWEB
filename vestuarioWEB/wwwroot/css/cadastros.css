@@ -1,0 +1,20 @@
+html{
+    --grey-blue: #A1B2CD;
+}
+
+input{
+    border: 0.2rem solid #A1B2CD; 
+    padding: 0 1.6rem;
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+input, button, .button{
+    border-radius: 0.8rem;
+    height: 4rem;
+    width: 100%;
+}
+
+#pageintro{
+    padding: 4rem 0;
+}

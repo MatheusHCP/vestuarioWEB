@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Categorias - VestWEB";
+}
+
+<link href="~/css/cadastros.css" rel="stylesheet" type="text/css" media="all" />
+
+<div id="pageintro" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <article>
+        <p>Cadastro</p>
+        <h3 class="heading">CATEGORIAS</h3>
+    </article>
+    <!-- ################################################################################################ -->
+</div>
+
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        @*<section id="introblocks">
+            <ul class="nospace group">
+                <li class="one_third">
+                    <figure>
+                        <a class="imgover" href="#"><img src="images/demo/348x220.png" alt=""></a>
+                        <figcaption>
+                            <h6 class="heading">Aliquam faucibus</h6>
+                            <p>Ipsum eu ipsum donec ac orci sed lectus elementum fringilla nullam dictum nisi nec mauris phasellus ut lacus.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>*@
+        <form>
+            <div class="form-group">
+                <label for="Campoidentificador">Identificador da Categoria</label>
+                <input type="number" placeholder="ID" class="form-control" id="Campoidentificador" readonly>
+            </div>
+            <div class="form-group">
+                <label for="desccategoria">Descrição da categoria</label>
+                <input type="text" placeholder="categoria" class="form-control" id="desccategoria">
+            </div>
+            <button type="button" class="btn btn-primary">Salvar</button>
+        </form>
+    </main>
+</div>

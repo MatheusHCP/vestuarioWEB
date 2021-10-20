@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Marcas - VestWEB";
+}
+
+<link href="~/css/cadastros.css" rel="stylesheet" type="text/css" media="all" />
+
+<div id="pageintro" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <article>
+        <p>Cadastro</p>
+        <h3 class="heading">MARCAS</h3>
+    </article>
+    <!-- ################################################################################################ -->
+</div>
+
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <form>
+            <div class="form-group">
+                <label for="Campoidentificador">Identificador da Categoria</label>
+                <input type="number" placeholder="ID" class="form-control" id="Campoidentificador" readonly>
+            </div>
+            <div class="form-group">
+                <label for="descmarca">Descrição da marca</label>
+                <input type="text" placeholder="marca" class="form-control" id="descmarca" maxlength="30">
+            </div>
+            <button type="button" class="btn btn-primary">Salvar</button>
+        </form>
+    </main>
+</div>
+
