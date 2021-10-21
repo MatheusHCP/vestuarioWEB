@@ -16,16 +16,22 @@
 
 <div class="wrapper row3">
     <main class="hoc container clear">
-        <form>
-            <div class="form-group">
-                <label for="Campoidentificador">Identificador da Categoria</label>
-                <input type="number" placeholder="ID" class="form-control" id="Campoidentificador" readonly>
-            </div>
-            <div class="form-group">
-                <label for="desccategoria">Descrição da categoria</label>
-                <input type="text" placeholder="categoria" class="form-control" id="desccategoria">
-            </div>
-            <button type="button" class="btn btn-primary">Salvar</button>
-        </form>
+        <div class="form-group">
+            <label for="txtdescricaocategoria">Informe a descrição da marca</label>
+            <input type="text" class="form-control" id="txtdescricaomarca" />
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Alterar</th>
+                    <th scope="col">Excluir</th>
+                </tr>
+            </thead>
+            <tbody id="itens">
+            </tbody>
+        </table>
     </main>
 </div>
+
+
